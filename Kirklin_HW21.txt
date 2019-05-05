@@ -4,6 +4,8 @@ Date Last Modified: 04/18/19
 
 
 Write the CSS for a class that is relatively positioned. This class should appear 15 ­pixels in from the left. Configure the class to have a light green background.
+
+class, not id!
 #chicken { position: relative;
            left: 15px;
            background-color: #90EE90;}
@@ -19,3 +21,5 @@ ul li { list-style-image: url(myimage.gif); }
 
 Write the CSS to configure an unordered list to display a square list marker.
 ul li { list-style-type: square;}
+
+ul {list-style-type: square; }
